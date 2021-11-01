@@ -1,0 +1,59 @@
+.navbar-maindiv {
+  padding-top: 5px;
+  height: 42px;
+  width: 95%;
+  margin: auto;
+}
+
+.navlinks-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.nav-link {
+  text-decoration: none;
+}
+#heart-icon {
+  color: white;
+  transition-duration: 0.2s;
+  font-size: 1.7rem;
+  user-select: none;
+}
+
+#heart-icon:hover {
+  color: rgb(233, 89, 89);
+  cursor: pointer;
+}
+#house-icon {
+  color: white;
+  transition-duration: 0.2s;
+  font-size: 1.9rem;
+  font-weight: bold;
+  user-select: none;
+}
+
+#house-icon:hover {
+  color: rgba(255, 255, 0, 0.752);
+  cursor: pointer;
+}
+
+
+@media (max-width: 450px) {
+
+   .navbar-maindiv {
+      padding-top: 5px;
+      height: 42px;
+      width: 90%;
+      margin: auto;
+    }
+    
+    .navlinks-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 95%;
+      margin: auto;
+    }
+}

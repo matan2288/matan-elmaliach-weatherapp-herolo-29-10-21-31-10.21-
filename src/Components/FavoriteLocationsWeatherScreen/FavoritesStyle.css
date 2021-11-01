@@ -1,0 +1,47 @@
+.fav-screen-temp-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+}
+
+#empty-favorites{
+  color: white;
+  margin: 25px;
+}
+
+#fav-card-city-name {
+  color: white;
+}
+
+#bottom-fav-max-temp {
+  font-size: 1.5rem;
+}
+#bottom-fav-min-temp {
+  font-size: 0.8rem;
+  color: rgba(241, 239, 239, 0.331);
+}
+
+#evoke-remove-from-list-btn {
+  margin-top: -25px;
+  margin-bottom: 10px;
+  padding: 1px;
+  background-color: none;
+  color: rgba(132, 132, 132, 0.517);
+  font-weight: bold;
+}
+
+#evoke-remove-from-list-btn:active {
+  color: red;
+}
+
+@media(max-width: 450px){
+  .fav-container-style{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
