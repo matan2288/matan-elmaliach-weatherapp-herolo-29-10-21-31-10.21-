@@ -43,7 +43,7 @@ export const HomeScreen = () => {
 
   const getApi = async () => {
     const baseUrl = "https://dataservice.accuweather.com";
-    const apiKey = "kyOknGYJG884XBaixywXQv9j3npgKGfk";
+    const apiKey = "naVC2bff8XWaRtUDrU50CRxiwkwe1Udu";
 
     const getCurrentAndFiveDayWheather = async () => {
       axios
@@ -112,7 +112,7 @@ export const HomeScreen = () => {
   useEffect(() => {
     getApi();
     evokeSearch();
-  }, [initialCityName, queryAutocompleteInitialValue, setDailyForecast , intialDailyForecast]);
+  }, [initialCityName, queryAutocompleteInitialValue]);
 
   return (
     <div className="homepage-maindiv">
